@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  Substance_Painter,
+  maya,
+  ZBrush,
+  adobe_after_effects,
   javascript,
   typescript,
   html,
@@ -27,6 +27,10 @@ import {
 
 export const navLinks = [
   {
+    id: "hero",
+    title: "Home",
+  },
+  {
     id: "about",
     title: "About",
   },
@@ -42,129 +46,90 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Adobe After Effects",
+    icon: adobe_after_effects,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Substance Painter",
+    icon: Substance_Painter,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Autodesk Maya",
+    icon: maya,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "ZBrush",
+    icon: ZBrush,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "maya",
+    icon: maya,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Substance Painter",
+    icon: Substance_Painter,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "After Effects",
+    icon: adobe_after_effects,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "ZBrush",
+    icon: ZBrush,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Kizazi Moto: Generation Fire",
+    company_name: "CG Generalist",
+    icon: adobe_after_effects,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This action-packed animated sci-fi anthology presents ten futuristic visions from Africa imagining brave new worlds of advanced technology, aliens, spirits, and monsters.",
+      "...",
+      "...",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Project 2",
+    company_name: "Character Modelling",
+    icon: Substance_Painter,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "High poly character modelling and rigging",
+      "...",
+      "...",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "3D Character Animation",
+    company_name: "3D Animation",
+    icon: maya,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "3D Modelling, Texturing and Animating",
+      "...",
+      "...",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Architectural Visualization",
+    company_name: "3D Model",
+    icon: ZBrush,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "High poly architectural modelling, texturing, rendering",
+      "...",
+      "...",
     ],
   },
 ];
@@ -172,93 +137,93 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Marcus (3d_meru) transformed our project with stunning 3D visuals, exceeding all expectations and bringing our vision to life.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: "Creative Director",
+    company: "Infinity Media",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "The CGI work by Marcus (3d_meru) was nothing short of spectacular, adding a professional and dynamic edge to our marketing campaign.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "Marketing Manager",
+    company: "Visionary Studios",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Marcus (3d_meru) delivered exceptional 3D designs for our video game, combining creativity and technical precision in every detail.",
     name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "Game Developer",
+    company: "Pixel Perfect Studios",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dude in a MK tee ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "(Zbrush Practice)...",
     tags: [
       {
-        name: "react",
+        name: "zbrush",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "substancepainter",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "3dmodelling",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.behance.net/gallery/161840343/Dude-in-a-MK-tee-(Zbrush-Practice)",
   },
   {
-    name: "Job IT",
+    name: "Sun Queen ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "(Zbrush Practice)",
     tags: [
       {
-        name: "react",
+        name: "maya",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "zbrush",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "texturing",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.behance.net/gallery/161839967/Sun-Queen-(Zbrush-Practice)",
   },
   {
-    name: "Trip Guide",
+    name: "Mushroom-Dude",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Pablo Munoz - Zbrush tutorial",
     tags: [
       {
-        name: "nextjs",
+        name: "tutorial",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rendering",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rigging",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.behance.net/gallery/161837253/Mushroom-Dude-(Pablo-Munoz-Zbrush-tut)",
   },
 ];
 

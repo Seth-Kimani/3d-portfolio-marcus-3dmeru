@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
+import logo from "./logo.png";
+import maya from "./maya.png";
+import ZBrush from "./ZBrush.png";
+import Substance_Painter from "./Substance-Painter.png";
+import adobe_after_effects from "./adobe-after-effects.png";
+import behance from "./behance.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -32,11 +32,11 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
+  maya,
+  ZBrush,
+  Substance_Painter,
+  adobe_after_effects,
+  behance,
   menu,
   close,
   css,
