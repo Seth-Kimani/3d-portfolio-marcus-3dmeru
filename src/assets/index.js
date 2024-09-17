@@ -1,6 +1,6 @@
 import logo from "./logo.png";
 import maya from "./maya.png";
-import ZBrush from "./ZBrush.png";
+import ZBrush from "./zbrush.png";
 import Substance_Painter from "./Substance-Painter.png";
 import adobe_after_effects from "./adobe-after-effects.png";
 import behance from "./behance.png";
